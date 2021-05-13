@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/aidagholami/Documents/Aida&Dheyaa/Work_Station/Youtube_Tutorial/Youtube_Tutorial/Linking/SOIL2/SOIL2.c \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap \
+  /Users/aidagholami/Documents/Aida&Dheyaa/Work_Station/Youtube_Tutorial/Youtube_Tutorial/Linking/SOIL2/SOIL2.h \
+  /Users/aidagholami/Documents/Aida&Dheyaa/Work_Station/Youtube_Tutorial/Youtube_Tutorial/Linking/SOIL2/stb_image.h \
+  /Users/aidagholami/Documents/Aida&Dheyaa/Work_Station/Youtube_Tutorial/Youtube_Tutorial/Linking/SOIL2/stbi_DDS.h \
+  /Users/aidagholami/Documents/Aida&Dheyaa/Work_Station/Youtube_Tutorial/Youtube_Tutorial/Linking/SOIL2/stbi_pvr.h \
+  /Users/aidagholami/Documents/Aida&Dheyaa/Work_Station/Youtube_Tutorial/Youtube_Tutorial/Linking/SOIL2/stbi_pkm.h \
+  /Users/aidagholami/Documents/Aida&Dheyaa/Work_Station/Youtube_Tutorial/Youtube_Tutorial/Linking/SOIL2/stbi_ext.h \
+  /Users/aidagholami/Documents/Aida&Dheyaa/Work_Station/Youtube_Tutorial/Youtube_Tutorial/Linking/SOIL2/stbi_DDS_c.h \
+  /Users/aidagholami/Documents/Aida&Dheyaa/Work_Station/Youtube_Tutorial/Youtube_Tutorial/Linking/SOIL2/image_DXT.h \
+  /Users/aidagholami/Documents/Aida&Dheyaa/Work_Station/Youtube_Tutorial/Youtube_Tutorial/Linking/SOIL2/stbi_pvr_c.h \
+  /Users/aidagholami/Documents/Aida&Dheyaa/Work_Station/Youtube_Tutorial/Youtube_Tutorial/Linking/SOIL2/pvr_helper.h \
+  /Users/aidagholami/Documents/Aida&Dheyaa/Work_Station/Youtube_Tutorial/Youtube_Tutorial/Linking/SOIL2/stbi_pkm_c.h \
+  /Users/aidagholami/Documents/Aida&Dheyaa/Work_Station/Youtube_Tutorial/Youtube_Tutorial/Linking/SOIL2/pkm_helper.h \
+  /Users/aidagholami/Documents/Aida&Dheyaa/Work_Station/Youtube_Tutorial/Youtube_Tutorial/Linking/SOIL2/wfETC.h \
+  /Users/aidagholami/Documents/Aida&Dheyaa/Work_Station/Youtube_Tutorial/Youtube_Tutorial/Linking/SOIL2/stbi_ext_c.h \
+  /Users/aidagholami/Documents/Aida&Dheyaa/Work_Station/Youtube_Tutorial/Youtube_Tutorial/Linking/SOIL2/stb_image_write.h \
+  /Users/aidagholami/Documents/Aida&Dheyaa/Work_Station/Youtube_Tutorial/Youtube_Tutorial/Linking/SOIL2/image_helper.h \
+  /Users/aidagholami/Documents/Aida&Dheyaa/Work_Station/Youtube_Tutorial/Youtube_Tutorial/Linking/SOIL2/jo_jpeg.h
