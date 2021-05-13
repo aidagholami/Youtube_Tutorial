@@ -250,6 +250,9 @@ int main(void)
         //Use a Program
         glUseProgram(core_program);
         
+        //Update uniforms
+        glUniform1i(glGetUniformLocation(core_program, "texture0"), 0);
+        
         //Activate Texture
         glActiveTexture(GL_TEXTURE0);
         glBindTexture(GL_TEXTURE_2D, texture0);
@@ -264,6 +267,11 @@ int main(void)
         // End Draw
         glfwSwapBuffers(window);
         glFlush();
+        
+        glBindVertexArray(0);
+        glUseProgram(0);
+        glActiveTexture(0);
+        glBindTexture(GL_TEXTURE_2D, 0);
     }
     
 //  End of Program

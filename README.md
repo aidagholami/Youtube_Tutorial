@@ -24,7 +24,7 @@ Go to the source file ‘src/SOIL2’ copy all the content and past it  in a fol
 ProjectName/ProjectName/Linking/SOIL2
 
 
-Show the texture on the window:
+## Show the texture on the window:
 
 For I/O in Xcode check Thi slink
 https://www.youtube.com/watch?v=JM1D0yxAYHk
