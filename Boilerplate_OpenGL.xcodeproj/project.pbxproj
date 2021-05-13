@@ -30,7 +30,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		19D0910A264BDFD100EEFD74 /* OpenGl_BoilerPlate */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenGl_BoilerPlate; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D0910A264BDFD100EEFD74 /* Boilerplate_OpenGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Boilerplate_OpenGL; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D0910D264BDFD100EEFD74 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		19D09117264BE23200EEFD74 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		19D0911A264BE38A00EEFD74 /* libGLEW.2.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.2.0.dylib; path = ../../../../usr/local/Cellar/glew/2.2.0_1/lib/libGLEW.2.2.0.dylib; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 		19D09101264BDFD100EEFD74 = {
 			isa = PBXGroup;
 			children = (
-				19D0910C264BDFD100EEFD74 /* OpenGl_BoilerPlate */,
+				19D0910C264BDFD100EEFD74 /* Boilerplate_OpenGL */,
 				19D0910B264BDFD100EEFD74 /* Products */,
 				19D09116264BE23200EEFD74 /* Frameworks */,
 			);
@@ -85,19 +85,19 @@
 		19D0910B264BDFD100EEFD74 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				19D0910A264BDFD100EEFD74 /* OpenGl_BoilerPlate */,
+				19D0910A264BDFD100EEFD74 /* Boilerplate_OpenGL */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		19D0910C264BDFD100EEFD74 /* OpenGl_BoilerPlate */ = {
+		19D0910C264BDFD100EEFD74 /* Boilerplate_OpenGL */ = {
 			isa = PBXGroup;
 			children = (
 				19D09128264BF47300EEFD74 /* Linking */,
 				19D09120264BE79000EEFD74 /* HeaderFiles */,
 				19D0910D264BDFD100EEFD74 /* main.cpp */,
 			);
-			path = OpenGl_BoilerPlate;
+			path = Boilerplate_OpenGL;
 			sourceTree = "<group>";
 		};
 		19D09116264BE23200EEFD74 /* Frameworks */ = {
@@ -157,9 +157,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		19D09109264BDFD100EEFD74 /* OpenGl_BoilerPlate */ = {
+		19D09109264BDFD100EEFD74 /* Boilerplate_OpenGL */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 19D09111264BDFD100EEFD74 /* Build configuration list for PBXNativeTarget "OpenGl_BoilerPlate" */;
+			buildConfigurationList = 19D09111264BDFD100EEFD74 /* Build configuration list for PBXNativeTarget "Boilerplate_OpenGL" */;
 			buildPhases = (
 				19D09106264BDFD100EEFD74 /* Sources */,
 				19D09107264BDFD100EEFD74 /* Frameworks */,
@@ -169,9 +169,9 @@
 			);
 			dependencies = (
 			);
-			name = OpenGl_BoilerPlate;
+			name = Boilerplate_OpenGL;
 			productName = YoutubeTutorial;
-			productReference = 19D0910A264BDFD100EEFD74 /* OpenGl_BoilerPlate */;
+			productReference = 19D0910A264BDFD100EEFD74 /* Boilerplate_OpenGL */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -187,7 +187,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 19D09105264BDFD100EEFD74 /* Build configuration list for PBXProject "OpenGl_BoilerPlate" */;
+			buildConfigurationList = 19D09105264BDFD100EEFD74 /* Build configuration list for PBXProject "Boilerplate_OpenGL" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -200,7 +200,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				19D09109264BDFD100EEFD74 /* OpenGl_BoilerPlate */,
+				19D09109264BDFD100EEFD74 /* Boilerplate_OpenGL */,
 			);
 		};
 /* End PBXProject section */
@@ -365,7 +365,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		19D09105264BDFD100EEFD74 /* Build configuration list for PBXProject "OpenGl_BoilerPlate" */ = {
+		19D09105264BDFD100EEFD74 /* Build configuration list for PBXProject "Boilerplate_OpenGL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				19D0910F264BDFD100EEFD74 /* Debug */,
@@ -374,7 +374,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		19D09111264BDFD100EEFD74 /* Build configuration list for PBXNativeTarget "OpenGl_BoilerPlate" */ = {
+		19D09111264BDFD100EEFD74 /* Build configuration list for PBXNativeTarget "Boilerplate_OpenGL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				19D09112264BDFD100EEFD74 /* Debug */,

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "19D09109264BDFD100EEFD74"
-               BuildableName = "OpenGl_BoilerPlate"
-               BlueprintName = "OpenGl_BoilerPlate"
-               ReferencedContainer = "container:OpenGl_BoilerPlate.xcodeproj">
+               BuildableName = "Boilerplate_OpenGL"
+               BlueprintName = "Boilerplate_OpenGL"
+               ReferencedContainer = "container:Boilerplate_OpenGL.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "19D09109264BDFD100EEFD74"
-            BuildableName = "OpenGl_BoilerPlate"
-            BlueprintName = "OpenGl_BoilerPlate"
-            ReferencedContainer = "container:OpenGl_BoilerPlate.xcodeproj">
+            BuildableName = "Boilerplate_OpenGL"
+            BlueprintName = "Boilerplate_OpenGL"
+            ReferencedContainer = "container:Boilerplate_OpenGL.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "19D09109264BDFD100EEFD74"
-            BuildableName = "OpenGl_BoilerPlate"
-            BlueprintName = "OpenGl_BoilerPlate"
-            ReferencedContainer = "container:OpenGl_BoilerPlate.xcodeproj">
+            BuildableName = "Boilerplate_OpenGL"
+            BlueprintName = "Boilerplate_OpenGL"
+            ReferencedContainer = "container:Boilerplate_OpenGL.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
