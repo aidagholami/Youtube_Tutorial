@@ -30,9 +30,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		19322824264CDDF5002D9955 /* fragment_core.glsl */ = {isa = PBXFileReference; lastKnownFileType = file; name = fragment_core.glsl; path = Build/Products/Debug/fragment_core.glsl; sourceTree = SOURCE_ROOT; };
-		19322825264CDDF5002D9955 /* vertex_core.glsl */ = {isa = PBXFileReference; lastKnownFileType = file; name = vertex_core.glsl; path = Build/Products/Debug/vertex_core.glsl; sourceTree = SOURCE_ROOT; };
+		19322824264CDDF5002D9955 /* fragment_core.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; name = fragment_core.glsl; path = Build/Products/Debug/fragment_core.glsl; sourceTree = SOURCE_ROOT; };
+		19322825264CDDF5002D9955 /* vertex_core.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; name = vertex_core.glsl; path = Build/Products/Debug/vertex_core.glsl; sourceTree = SOURCE_ROOT; };
 		19322826264CDDFC002D9955 /* pusheen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pusheen.png; path = Build/Products/Debug/pusheen.png; sourceTree = SOURCE_ROOT; };
+		195A24D1264D2E80004E044A /* container.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = container.png; path = Build/Products/Debug/container.png; sourceTree = SOURCE_ROOT; };
 		19D0910A264BDFD100EEFD74 /* Youtube_Tutorial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Youtube_Tutorial; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D0910D264BDFD100EEFD74 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		19D09117264BE23200EEFD74 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -88,6 +89,7 @@
 		19322821264CD8FA002D9955 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				195A24D1264D2E80004E044A /* container.png */,
 				19322826264CDDFC002D9955 /* pusheen.png */,
 			);
 			path = Images;
