@@ -324,7 +324,7 @@ int main(void)
                                         farPlane);
     
 //  Lights
-    glm::vec3 lightPos0(0.f, 0.f, -2.f);
+    glm::vec3 lightPos0(0.f, 0.f, 1.f);
     
 //  Init Uniforms
     glUseProgram(core_program);
@@ -334,6 +334,7 @@ int main(void)
     glUniformMatrix4fv(glGetUniformLocation(core_program, "ProjectionMatrix"), 1, GL_FALSE, glm::value_ptr(ProjectionMatrix));
    
     glUniform3fv(glGetUniformLocation(core_program, "lightPos0"), 1, glm::value_ptr(lightPos0));
+    glUniform3fv(glGetUniformLocation(core_program, "camPosition"), 1, glm::value_ptr(camPosition));
     
     glUseProgram(0);
     
