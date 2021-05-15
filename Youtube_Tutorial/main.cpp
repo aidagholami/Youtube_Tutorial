@@ -9,11 +9,11 @@
 
 Vertex vertices[] =
 {
-    //Position                      //Color                     //Texcoord
-    glm::vec3(-0.5f, 0.5f, 0.f),     glm::vec3(1.f, 0.f, 0.f),   glm::vec2(0.f,1.f),
-    glm::vec3(-0.5f, -0.5f, 0.f),    glm::vec3(0.f, 0.f, 1.f),   glm::vec2(0.f,0.f),
-    glm::vec3(0.5f, -0.5f, 0.f),     glm::vec3(0.f, 1.f, 0.f),   glm::vec2(1.f,0.f),
-    glm::vec3(0.5f, 0.5f, 0.f),      glm::vec3(1.f, 0.f, 1.f),   glm::vec2(1.f,1.f)
+    //Position                      //Color                     //Texcoord             //Normal
+    glm::vec3(-0.5f, 0.5f, 0.f),    glm::vec3(1.f, 0.f, 0.f),   glm::vec2(0.f,1.f),    glm::vec3(0.f, 0.f, -1.f),
+    glm::vec3(-0.5f, -0.5f, 0.f),   glm::vec3(0.f, 0.f, 1.f),   glm::vec2(0.f,0.f),    glm::vec3(0.f, 0.f, -1.f),
+    glm::vec3(0.5f, -0.5f, 0.f),    glm::vec3(0.f, 1.f, 0.f),   glm::vec2(1.f,0.f),    glm::vec3(0.f, 0.f, -1.f),
+    glm::vec3(0.5f, 0.5f, 0.f),     glm::vec3(1.f, 0.f, 1.f),   glm::vec2(1.f,1.f),    glm::vec3(0.f, 0.f, -1.f)
 };
 unsigned nrOfVertices = sizeof(vertices) / sizeof(Vertex);
 
@@ -56,12 +56,6 @@ void updateInput(GLFWwindow* window, glm::vec3& position, glm::vec3& rotation, g
     if (glfwGetKey(window, GLFW_KEY_Z) == GLFW_PRESS) {
         scale += 0.1f;
     }
-//    if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS) {
-//        position.z -=0.01f;
-//    }
-//    if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS) {
-//        position.z -=0.01f;
-//    }
 }
 
 void frambuffer_resize_callback(GLFWwindow* window, int fbW, int fbH) {
@@ -209,6 +203,9 @@ int main(void)
     GLuint core_program;
     if (!loadShaders(core_program))
         glfwTerminate();
+    
+//  Model
+    
 //  VAO, VBO, EBO
 //  Gen VAO and Bind
     GLuint VAO;
@@ -237,6 +234,9 @@ int main(void)
 //  Texcoord
     glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, sizeof(Vertex), (GLvoid*)offsetof(Vertex, texcoord));
     glEnableVertexAttribArray(2);
+//  Normal
+    glVertexAttribPointer(3, 3, GL_FLOAT, GL_FALSE, sizeof(Vertex), (GLvoid*)offsetof(Vertex, normal));
+    glEnableVertexAttribArray(3);
     
 //  Bind VAO 0
     glBindVertexArray(0);
@@ -323,12 +323,17 @@ int main(void)
                                         nearPlane,
                                         farPlane);
     
+//  Lights
+    glm::vec3 lightPos0(0.f, 0.f, -2.f);
+    
 //  Init Uniforms
     glUseProgram(core_program);
     
     glUniformMatrix4fv(glGetUniformLocation(core_program, "ModelMatrix"), 1, GL_FALSE, glm::value_ptr(ModelMatrix));
     glUniformMatrix4fv(glGetUniformLocation(core_program, "ViewMatrix"), 1, GL_FALSE, glm::value_ptr(ViewMatrix));
     glUniformMatrix4fv(glGetUniformLocation(core_program, "ProjectionMatrix"), 1, GL_FALSE, glm::value_ptr(ProjectionMatrix));
+   
+    glUniform3fv(glGetUniformLocation(core_program, "lightPos0"), 1, glm::value_ptr(lightPos0));
     
     glUseProgram(0);
     
